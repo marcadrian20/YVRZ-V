@@ -1,0 +1,31 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/ALU.sv" type="file.verilog" enable="1"/>
+        <File path="src/BranchUnit.sv" type="file.verilog" enable="1"/>
+        <File path="src/HazardUnit.sv" type="file.verilog" enable="1"/>
+        <File path="src/IRAM.sv" type="file.verilog" enable="1"/>
+        <File path="src/LoadStoreUnit.sv" type="file.verilog" enable="1"/>
+        <File path="src/PC.sv" type="file.verilog" enable="1"/>
+        <File path="src/RAM.sv" type="file.verilog" enable="1"/>
+        <File path="src/SRTlut.sv" type="file.verilog" enable="1"/>
+        <File path="src/compressed_dec.sv" type="file.verilog" enable="1"/>
+        <File path="src/control_unit.sv" type="file.verilog" enable="1"/>
+        <File path="src/csr_unit.sv" type="file.verilog" enable="1"/>
+        <File path="src/immd_gen.sv" type="file.verilog" enable="1"/>
+        <File path="src/leading_zero_count.sv" type="file.verilog" enable="1"/>
+        <File path="src/mux.sv" type="file.verilog" enable="1"/>
+        <File path="src/mux2to1.sv" type="file.verilog" enable="1"/>
+        <File path="src/mux3to1.sv" type="file.verilog" enable="1"/>
+        <File path="src/pipeline_reg.sv" type="file.verilog" enable="1"/>
+        <File path="src/pipelined_core.sv" type="file.verilog" enable="1"/>
+        <File path="src/regfile.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/YVRZ-V.cst" type="file.cst" enable="1"/>
+        <File path="src/YVRZ-V.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,80 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\ALU.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\BranchUnit.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\HazardUnit.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\IRAM.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\LoadStoreUnit.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\PC.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\RAM.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\SRTlut.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\compressed_dec.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\control_unit.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\csr_unit.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\immd_gen.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\mux.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\mux2to1.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\mux3to1.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv'
+Undeclared symbol 'aluSRCA', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":113)
+Undeclared symbol 'aluSRCB', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":114)
+Undeclared symbol 'ALUbusy', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":160)
+Undeclared symbol 'ill_instr_exception_EX', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":166)
+Undeclared symbol 'ecall_exception_EX', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":166)
+Undeclared symbol 'ebreak_exception_EX', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":166)
+Undeclared symbol 'mul_div_op_EX', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":166)
+Undeclared symbol 'flushMEM', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":231)
+Undeclared symbol 'csr_op_MEM', assumed default net type 'wire'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":234)
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\regfile.sv'
+Analyzing Verilog file 'D:\proiecte\RVCORE\YVRZ-V\src\top.sv'
+Compiling module 'pipelined_core'("D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv":7)
+Compiling module 'ProgramCounter'("D:\proiecte\RVCORE\YVRZ-V\src\PC.sv":2)
+Compiling module 'pipeline_reg(WIDTH=96,INIT_VALUE=32'h00000013)'("D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv":1)
+Compiling module 'ControlUnit'("D:\proiecte\RVCORE\YVRZ-V\src\control_unit.sv":2)
+Compiling module 'regfile'("D:\proiecte\RVCORE\YVRZ-V\src\regfile.sv":2)
+Extracting RAM for identifier 'regs'("D:\proiecte\RVCORE\YVRZ-V\src\regfile.sv":8)
+Compiling module 'ImmediateGenerator'("D:\proiecte\RVCORE\YVRZ-V\src\immd_gen.sv":2)
+Compiling module 'mux2to1(WIDTH=32)'("D:\proiecte\RVCORE\YVRZ-V\src\mux2to1.sv":2)
+Compiling module 'pipeline_reg(WIDTH=244)'("D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv":1)
+Compiling module 'BranchUnit'("D:\proiecte\RVCORE\YVRZ-V\src\BranchUnit.sv":52)
+Compiling module 'AdressAdder'("D:\proiecte\RVCORE\YVRZ-V\src\BranchUnit.sv":150)
+Compiling module 'alu'("D:\proiecte\RVCORE\YVRZ-V\src\ALU.sv":2)
+Compiling module 'leading_zero_count'("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":1)
+WARN  (EX2420) : Latch inferred for net 'count[4]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+WARN  (EX3101) : 'count' inside always_comb block does not represent combinational logic("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+Compiling module 'SRTlut'("D:\proiecte\RVCORE\YVRZ-V\src\SRTlut.sv":6)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 32("D:\proiecte\RVCORE\YVRZ-V\src\ALU.sv":202)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 32("D:\proiecte\RVCORE\YVRZ-V\src\ALU.sv":206)
+Compiling module 'pipeline_reg(WIDTH=142)'("D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv":1)
+Compiling module 'LoadStoreUnit'("D:\proiecte\RVCORE\YVRZ-V\src\LoadStoreUnit.sv":2)
+Compiling module 'pipeline_reg(WIDTH=136)'("D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv":1)
+Compiling module 'mux3to1(WIDTH=32)'("D:\proiecte\RVCORE\YVRZ-V\src\mux3to1.sv":2)
+Compiling module 'HazardUnit'("D:\proiecte\RVCORE\YVRZ-V\src\HazardUnit.sv":1)
+Compiling module 'CSRUnit'("D:\proiecte\RVCORE\YVRZ-V\src\csr_unit.sv":2)
+NOTE  (EX0101) : Current top module is "pipelined_core"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'count[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+WARN  (DI0003) : Latch inferred for net 'count[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+WARN  (DI0003) : Latch inferred for net 'count[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+WARN  (DI0003) : Latch inferred for net 'count[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+WARN  (DI0003) : Latch inferred for net 'count[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv":38)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\proiecte\RVCORE\YVRZ-V\impl\gwsynthesis\YVRZ-V.vg" completed
+[100%] Generate report file "D:\proiecte\RVCORE\YVRZ-V\impl\gwsynthesis\YVRZ-V_syn.rpt.html" completed
+GowinSynthesis finish

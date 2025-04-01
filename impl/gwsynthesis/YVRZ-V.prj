@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\ALU.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\BranchUnit.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\HazardUnit.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\IRAM.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\LoadStoreUnit.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\PC.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\RAM.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\SRTlut.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\compressed_dec.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\control_unit.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\csr_unit.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\immd_gen.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\leading_zero_count.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\mux.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\mux2to1.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\mux3to1.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\pipeline_reg.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\pipelined_core.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\regfile.sv" type="verilog"/>
+        <File path="D:\proiecte\RVCORE\YVRZ-V\src\top.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="100000"/>
+        <Option type="output_file" value="D:\proiecte\RVCORE\YVRZ-V\impl\gwsynthesis\YVRZ-V.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="pipelined_core"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

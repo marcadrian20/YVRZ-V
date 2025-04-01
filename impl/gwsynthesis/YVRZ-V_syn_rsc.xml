@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="pipelined_core" Lut="352" T_Register="1141(0)" T_Alu="95(0)" T_Lut="3421(352)" T_MULT36X36="1(0)" T_ALU54D="12(0)" T_Ssram="32(0)">
+ <SubModule name="PC" Register="32" Lut="198" ALU54D="1" T_Register="32(32)" T_Lut="198(198)" T_ALU54D="1(1)"/>
+ <SubModule name="IF_ID_reg" Register="94" T_Register="94(94)"/>
+ <SubModule name="CU" Lut="46" T_Lut="46(46)"/>
+ <SubModule name="REGFILE" Lut="38" Ssram="32" T_Lut="38(38)" T_Ssram="32(32)"/>
+ <SubModule name="IMMD_GEN" Lut="55" T_Lut="55(55)"/>
+ <SubModule name="alu_portA_mux" Lut="66" T_Lut="66(66)"/>
+ <SubModule name="addr_adder_inputA_mux" Lut="32" T_Lut="32(32)"/>
+ <SubModule name="ID_EX_reg" Register="236" Lut="2" T_Register="236(236)" T_Lut="2(2)"/>
+ <SubModule name="alu_portB_mux" Lut="40" T_Lut="40(40)"/>
+ <SubModule name="BRANCH_UNIT" Alu="32" Lut="1" T_Alu="32(32)" T_Lut="1(1)"/>
+ <SubModule name="ADDRESS_ADDER" ALU54D="1" T_ALU54D="1(1)"/>
+ <SubModule name="ALU" Register="238" Alu="33" Lut="1616" MULT36X36="1" ALU54D="10" T_Register="243(238)" T_Alu="33(33)" T_Lut="1805(1616)" T_MULT36X36="1(1)" T_ALU54D="10(10)">
+  <SubModule name="lz_count" Register="5" Lut="137" T_Register="5(5)" T_Lut="137(137)"/>
+  <SubModule name="SRT_LUT" Lut="52" T_Lut="52(52)"/>
+ </SubModule>
+ <SubModule name="EX_MEM_reg" Register="142" T_Register="142(142)"/>
+ <SubModule name="LSU_MEM" Lut="78" T_Lut="78(78)"/>
+ <SubModule name="MEM_WB_reg" Register="136" T_Register="136(136)"/>
+ <SubModule name="regfile_write_src" Lut="65" T_Lut="65(65)"/>
+ <SubModule name="HAZARD_UNIT" Alu="30" T_Alu="30(30)"/>
+ <SubModule name="CSR_UNIT" Register="258" Lut="643" T_Register="258(258)" T_Lut="643(643)"/>
+</Module>

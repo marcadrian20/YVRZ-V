@@ -1,0 +1,3 @@
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -nostdlib -T linker.ld Test_I_INSTR_NO_ENV.s -o Test_I_INSTR_NO_ENV.elf
+riscv64-unknown-elf-objcopy -O verilog --only-section=.text Test_I_INSTR_NO_ENV.elf imem.hex
+riscv64-unknown-elf-objcopy -O verilog --remove-section=.text Test_I_INSTR_NO_ENV.elf dmem.hex

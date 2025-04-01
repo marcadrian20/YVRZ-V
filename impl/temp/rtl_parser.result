@@ -1,0 +1,208 @@
+[
+ {
+  "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux.sv",
+  "InstLine" : 1,
+  "InstName" : "Multiplexer",
+  "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "Multiplexer"
+ },
+ {
+  "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/top.sv",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/top.sv",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/top.sv",
+    "InstLine" : 18,
+    "InstName" : "PIPELINED_CORE",
+    "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "pipelined_core",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 84,
+      "InstName" : "PC",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/PC.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "ProgramCounter"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 94,
+      "InstName" : "IF_ID_reg",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipeline_reg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pipeline_reg"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 108,
+      "InstName" : "CU",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/control_unit.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "ControlUnit"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 127,
+      "InstName" : "REGFILE",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/regfile.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "regfile"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 136,
+      "InstName" : "IMMD_GEN",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/immd_gen.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "ImmediateGenerator"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 148,
+      "InstName" : "alu_portA_mux",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux2to1.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "mux2to1"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 153,
+      "InstName" : "addr_adder_inputA_mux",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux2to1.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "mux2to1"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 158,
+      "InstName" : "ID_EX_reg",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipeline_reg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pipeline_reg"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 183,
+      "InstName" : "alu_portB_mux",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux2to1.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "mux2to1"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 207,
+      "InstName" : "BRANCH_UNIT",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/BranchUnit.sv",
+      "ModuleLine" : 52,
+      "ModuleName" : "BranchUnit"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 218,
+      "InstName" : "ADDRESS_ADDER",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/BranchUnit.sv",
+      "ModuleLine" : 150,
+      "ModuleName" : "AdressAdder"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 219,
+      "InstName" : "ALU",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/ALU.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "alu",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/ALU.sv",
+        "InstLine" : 114,
+        "InstName" : "lz_count",
+        "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/leading_zero_count.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "leading_zero_count"
+       },
+       {
+        "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/ALU.sv",
+        "InstLine" : 115,
+        "InstName" : "SRT_LUT",
+        "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/SRTlut.sv",
+        "ModuleLine" : 6,
+        "ModuleName" : "SRTlut"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 230,
+      "InstName" : "EX_MEM_reg",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipeline_reg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pipeline_reg"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 238,
+      "InstName" : "LSU_MEM",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/LoadStoreUnit.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "LoadStoreUnit"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 255,
+      "InstName" : "MEM_WB_reg",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipeline_reg.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "pipeline_reg"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 278,
+      "InstName" : "regfile_write_src",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/mux3to1.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "mux3to1"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 287,
+      "InstName" : "HAZARD_UNIT",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/HazardUnit.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "HazardUnit"
+     },
+     {
+      "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/pipelined_core.sv",
+      "InstLine" : 308,
+      "InstName" : "CSR_UNIT",
+      "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/csr_unit.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "CSRUnit"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/top.sv",
+    "InstLine" : 32,
+    "InstName" : "IRAM",
+    "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/IRAM.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "iram"
+   },
+   {
+    "InstFile" : "D:/proiecte/RVCORE/YVRZ-V/src/top.sv",
+    "InstLine" : 35,
+    "InstName" : "RAM",
+    "ModuleFile" : "D:/proiecte/RVCORE/YVRZ-V/src/RAM.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "ram"
+   }
+  ]
+ }
+]

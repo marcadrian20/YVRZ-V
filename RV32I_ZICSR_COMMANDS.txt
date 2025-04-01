@@ -1,0 +1,3 @@
+riscv64-unknown-elf-gcc -march=rv32im_zicsr -mabi=ilp32 -nostdlib -T linker.ld test_ZICSR_I.s -o test_ZICSR_I.elf
+riscv64-unknown-elf-objcopy -O verilog --only-section=.text test_ZICSR_I.elf imem.hex
+riscv64-unknown-elf-objcopy -O verilog --remove-section=.text test_ZICSR_I.elf dmem.hex
